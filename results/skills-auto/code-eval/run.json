@@ -1,0 +1,79 @@
+{
+  "task": "code-eval",
+  "condition": "skills-auto",
+  "role": "eval",
+  "error": "OpenAIAPIError: Error code: 503 - {'error': {'message': '[codex/gpt-5.6-terra] [429]: The usage limit has been reached (reset after 30m)'}}",
+  "timestamp": "2026-10-06T13:08:12.044571+00:00",
+  "skills_sha256": "e6afc48b3421802a6db14d55f360276a10f115ed985a07a2f1380b6c654f01ad",
+  "seconds": 45.8,
+  "tokens": {
+    "input": 13767,
+    "output": 536,
+    "total": 14303
+  },
+  "tool_calls": 0,
+  "subagent_calls": 0,
+  "skills_read": 0,
+  "skills_modified": false,
+  "final_message": "",
+  "score": 0.0,
+  "passed": 0,
+  "total": 11,
+  "checks": [
+    {
+      "name": "visible_suite_passes",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "tests_not_modified",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "parse_duration_all_formats",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "other_caller_fixed",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "billable_blocks_round_up",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "add_slot_no_shared_state",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "negative_minutes_rejected",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "rule_type_hints",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "rule_regression_tests",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "rule_changelog",
+      "passed": false,
+      "detail": ""
+    },
+    {
+      "name": "rule_version_bump",
+      "passed": false,
+      "detail": ""
+    }
+  ]
+}

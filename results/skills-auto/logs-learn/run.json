@@ -1,0 +1,69 @@
+{
+  "task": "logs-learn",
+  "condition": "skills-auto",
+  "role": "learn",
+  "error": "OpenAIAPIError: Error code: 503 - {'error': {'message': '[codex/gpt-5.6-terra] [429]: The usage limit has been reached (reset after 29m 59s)'}}",
+  "timestamp": "2026-10-06T13:09:01.963358+00:00",
+  "skills_sha256": "e6afc48b3421802a6db14d55f360276a10f115ed985a07a2f1380b6c654f01ad",
+  "seconds": 0.1,
+  "tokens": {
+    "input": 0,
+    "output": 0,
+    "total": 0
+  },
+  "tool_calls": 0,
+  "subagent_calls": 0,
+  "skills_read": 0,
+  "skills_modified": false,
+  "final_message": "",
+  "score": 0.0,
+  "passed": 0,
+  "total": 9,
+  "checks": [
+    {
+      "name": "valid_structure",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\PC\\\\AppData\\\\Local\\\\Temp\\\\lab_sandbox_c9af_0eg\\\\workspace\\\\errors.json'"
+    },
+    {
+      "name": "entry_count",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\PC\\\\AppData\\\\Local\\\\Temp\\\\lab_sandbox_c9af_0eg\\\\workspace\\\\errors.json'"
+    },
+    {
+      "name": "timestamps_utc",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\PC\\\\AppData\\\\Local\\\\Temp\\\\lab_sandbox_c9af_0eg\\\\workspace\\\\errors.json'"
+    },
+    {
+      "name": "exception_fields",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\PC\\\\AppData\\\\Local\\\\Temp\\\\lab_sandbox_c9af_0eg\\\\workspace\\\\errors.json'"
+    },
+    {
+      "name": "repeat_counts",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\PC\\\\AppData\\\\Local\\\\Temp\\\\lab_sandbox_c9af_0eg\\\\workspace\\\\errors.json'"
+    },
+    {
+      "name": "counts_by_service",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\PC\\\\AppData\\\\Local\\\\Temp\\\\lab_sandbox_c9af_0eg\\\\workspace\\\\errors.json'"
+    },
+    {
+      "name": "rule_service_names",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\PC\\\\AppData\\\\Local\\\\Temp\\\\lab_sandbox_c9af_0eg\\\\workspace\\\\errors.json'"
+    },
+    {
+      "name": "rule_sorted_errors",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\PC\\\\AppData\\\\Local\\\\Temp\\\\lab_sandbox_c9af_0eg\\\\workspace\\\\errors.json'"
+    },
+    {
+      "name": "rule_schema_header",
+      "passed": false,
+      "detail": "FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\PC\\\\AppData\\\\Local\\\\Temp\\\\lab_sandbox_c9af_0eg\\\\workspace\\\\errors.json'"
+    }
+  ]
+}
